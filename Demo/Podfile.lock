@@ -1,0 +1,20 @@
+PODS:
+  - YYCache (0.9.5)
+  - YYImage (0.9.3)
+  - YYWebImage (0.9.13):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - YYWebImage (from `../YYwebImage.podspec`)
+
+EXTERNAL SOURCES:
+  YYWebImage:
+    :path: ../YYwebImage.podspec
+
+SPEC CHECKSUMS:
+  YYCache: 3ddcc49c387655f077c4e1b3708ed5ed71c79be2
+  YYImage: f831ce12f2bf5ce35137f6079a4b9cb4e91eb0ef
+  YYWebImage: a7c1e4df7aebb947fc68c3f6e2f75ad3c5cdfd09
+
+COCOAPODS: 0.39.0
